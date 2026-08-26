@@ -11,7 +11,7 @@
     <head>
         <div>
             <h1>FATEC LUIGI PAPAIZ, DIADEMA</h1>
-            <h2>Desenvolvimento Web III - 3° Semestre</h2>
+            <h2>Projeto 02 - Desenvolvimento Web III - 3° Semestre</h2>
         </div>
     </head>
 
@@ -24,6 +24,35 @@
         <a href="/Desenvolvimento_WebIII">Desenvolvimento Web III</a>
         <a href="/Algebra_Linear">Álgebra Linear</a>
     </nav>
+
+    <main>
+        <section>
+            <h2>Sobre o Curso</h2>
+            <p>O curso de tecnologia em Desenvolvimento de Software Multiplataforma da FATEC 
+                é um tecnólogo gratuito de 3 anos focado em formar profissionais para criar, testar e 
+                implantar sistemas para web, mobile, desktop e nuvem. A formação combina programação Full Stack, 
+                banco de dados, engenharia de software, UI/UX e metodologias ágeis, 
+                preparando o estudante para atuar como desenvolvedor, analista ou engenheiro de software no mercado de tecnologia.
+            </p>
+
+            <div>
+                <img src="/img/fatec-diadema-predio.jpg">
+                <p>Fachada da Faculdade</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Vídeos:</h2>
+            <button onclick="trocarVideo(apresentacao.mp4)">Apresentção</button>
+            <button onclick="trocarVideo(Vestibular.mp4)">Vestibular</button>
+
+            <video id="playerVideo" src="/video/apresentacao.mp4" controls></video>
+        </section>
+    </main>
+
+    <footer>
+        FATEC - DESENVOLVIMENTO WEB III
+    </footer>
     
 </body>
 </html>

@@ -11,6 +11,7 @@ const contentTypes = {
     '.js':      'text/javascript; charset=utf-8',
     '.json':    'application/json; charset=utf-8',
     '.jpeg':    'image/jpeg',
+    '.jpg':     'image/jpg',
     '.png':     'image/png',
     '.pdf':     'application/pdf',
     '.mp4':     'video/mp4'
@@ -40,7 +41,7 @@ function readFile(response, file) {
         var extension = path.extname(file).toLowerCase();
         var contentType = contentTypes[extension] || 'application/octet-stream';
 
-        response.writeHead(200, {'Content-Type': conteType});
+        response.writeHead(200, {'Content-Type': contentType});
         response.end(data);
     });
 }
