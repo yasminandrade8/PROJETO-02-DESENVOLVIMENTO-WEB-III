@@ -13,6 +13,7 @@ const contentTypes = {
     '.jpeg':    'image/jpeg',
     '.jpg':     'image/jpg',
     '.png':     'image/png',
+    '.webp': 'image/webp',
     '.pdf':     'application/pdf',
     '.mp4':     'video/mp4'
 };
