@@ -18,14 +18,13 @@ const contentTypes = {
     '.mp4':     'video/mp4'
 };
 
-
 const routes = {
     '/': 'index.html',
     '/Disciplinas': 'disciplinas.html',
     '/IHC': 'ihc.html',
     '/Banco_Nao_Relacional': 'nosql.html',
     '/Gestão_Agil': 'gestaoAgil.html',
-    '/Tecnica_de_ProgramacaoII': 'tecProgram.html',
+    '/Tecnicas_de_ProgramacaoII': 'tecProgram.html',
     '/Algebra_Linear': 'algebra.html',
     '/Desenvolvimento_WebIII': 'devWeb.html'
 }
