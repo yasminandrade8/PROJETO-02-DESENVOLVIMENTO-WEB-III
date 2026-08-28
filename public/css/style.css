@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--cor-fundo);
+  font-family: "Slabo 13px", serif;
+  font-weight: 150;
+  font-style: normal;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 8px 5%;
+    background: var(--cor-primaria);
+    color: rgb(206, 202, 202);
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+.duas-colunas {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.duas-colunas .texto {
+    flex: 1;
+}
+
+.duas-colunas .imagem {
+    flex: 1;
+    text-align: center;
+}
+
+.duas-colunas img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+:root {
+  --cor-primaria: rgb(132, 22, 22);
+  --cor-escura: #222;
+  --cor-fundo: #c0b9b9;
+}
+
+button,
+.botao {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 0;
+    background: var(--cor-escura);
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logo {
+    width: 130px;
+    border-radius: 48%;
+}
+
+nav {
+    padding: 15px 5%;
+    background: #4b4949;
+}
+
+nav a {
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+@media (max-width: 600px) {
+  .grid { flex-direction: column; }
+  .grid div { width: 100%; }
+}
+
+img {
+    max-width: 100%;
+}
+
+.grid img {
+    height: 250px;
+    width: 100%;
+    object-fit: contain;
+}
+
+button,
+.botao {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer {
+    padding: 20px;
+    background: var(--cor-escura);
+    color: white;
+    text-align: center;
+}
+
+
+
+
+.erro {
+    background: #b22222;
+}
+
+iframe {
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+}
+
+video {
+    width: 100%;
+    margin-top: 15px;
+}
+
+/* PAGINA 404 */
+.erro404 {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.erro404 h1 {
+    margin: 0;
+    font-size: 140px;
+    color: #e53935;
+}
+
+.erro404 a {
+    color: white;
+}
