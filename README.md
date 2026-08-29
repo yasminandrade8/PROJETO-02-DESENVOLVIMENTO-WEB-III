@@ -1,4 +1,6 @@
 # 📚 Projeto 02 - Apresentação do Curso & Disciplinas (3º Semestre)
+> **Disciplina:** Desenvolvimento Web III  
+> **Linguagem:** HTML, CSS3 e JavaScript (Node.js) 
 
 Aplicação web desenvolvida para a apresentação do curso e das disciplinas do 3º semestre, com base nos conceitos trabalhados em aula (26/08/2026).
 
@@ -42,18 +44,17 @@ Este projeto consiste em um servidor web desenvolvido em **Node.js puro (sem fra
   Ter o Node.js instalado em sua máquina.
 
 ### Passo a Passo
-1. Clone o repositório:
-  ```bash
-  git clone [https://github.com/yasminandrade8/PROJETO 02 – DESENVOLVIMENTO WEB III.git](https://github.com/yasminandrade8/PROJETO 02 – DESENVOLVIMENTO WEB III.git)
-  ```
-2. Entre na pasta do projeto:
-  ```bash
-  cd Projeto02
-  ```
-3. Inicie o servidor HTTP:
-  ```bash
-  node app.js
-```
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/yasminandrade8/PROJETO 02 – DESENVOLVIMENTO WEB III.git](https://github.com/yasminandrade8/PROJETO 02 – DESENVOLVIMENTO WEB III.git)
+   
+2. **Entre na pasta do projeto:**
+   ```bash
+   cd Projeto02
+
+3. **Inicie o servidor HTTP:**
+   ```bash
+   node app.js
 
 ## 👩‍💻 Autora
 Feito com 💜 por Yasmin Andrade
