@@ -13,7 +13,7 @@ const contentTypes = {
     '.jpeg':    'image/jpeg',
     '.jpg':     'image/jpg',
     '.png':     'image/png',
-    '.webp': 'image/webp',
+    '.webp':    'image/webp',
     '.pdf':     'application/pdf',
     '.mp4':     'video/mp4'
 };
@@ -26,7 +26,8 @@ const routes = {
     '/Gestão_Agil': 'gestaoAgil.html',
     '/Tecnicas_de_ProgramacaoII': 'tecProgram.html',
     '/Algebra_Linear': 'algebra.html',
-    '/Desenvolvimento_WebIII': 'devWeb.html'
+    '/Desenvolvimento_WebIII': 'devWeb.html',
+    '/Aluno': 'aluno.html'
 }
 
 function readFile(response, file) {
