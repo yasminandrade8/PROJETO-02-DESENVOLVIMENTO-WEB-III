@@ -53,3 +53,7 @@ Este projeto consiste em um servidor web desenvolvido em **Node.js puro (sem fra
 3. Inicie o servidor HTTP:
   ```bash
   node app.js
+```
+
+## 👩‍💻 Autora
+Feito com 💜 por Yasmin Andrade
