@@ -44,7 +44,7 @@ Este projeto consiste em um servidor web desenvolvido em **Node.js puro (sem fra
 ### Passo a Passo
 1. Clone o repositório:
   ```bash
-  git clone [https://github.com/yasminandrade8/Projeto02.git](https://github.com/yasminandrade8/Projeto02.git)
+  git clone [https://github.com/yasminandrade8/PROJETO 02 – DESENVOLVIMENTO WEB III.git](https://github.com/yasminandrade8/PROJETO 02 – DESENVOLVIMENTO WEB III.git)
   ```
 2. Entre na pasta do projeto:
   ```bash
